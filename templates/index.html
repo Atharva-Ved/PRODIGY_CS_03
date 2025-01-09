@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Password Strength Checker</h1>
+            <p>Check your password strength by entering it below.</p>
+        </div>
+
+        <form action="/" method="POST" id="password-form">
+            <label for="password" class="form-label">Enter Password:</label>
+            <input type="password" id="password" name="password" placeholder="Your password" value="{{ password }}" required>
+            <button type="submit" class="submit-btn">Check Password</button>
+        </form>
+
+        {% if feedback is not none %}
+        <div class="feedback">
+            <h2>Password Feedback:</h2>
+            <ul>
+                <li class="{{ 'valid' if feedback.length else 'invalid' }}">Length: Minimum 8 characters</li>
+                <li class="{{ 'valid' if feedback.uppercase else 'invalid' }}">Contains Uppercase Letter</li>
+                <li class="{{ 'valid' if feedback.lowercase else 'invalid' }}">Contains Lowercase Letter</li>
+                <li class="{{ 'valid' if feedback.digit else 'invalid' }}">Contains a Number</li>
+                <li class="{{ 'valid' if feedback.special_char else 'invalid' }}">Contains Special Character</li>
+            </ul>
+            <p><strong>Password Strength: </strong>{{ strength }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // Optional: You could add JavaScript for form validation or better UI behavior.
+    </script>
+</body>
+</html>
