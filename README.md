@@ -35,21 +35,27 @@ How the Password Complexity Checker Works:
    The tool will provide feedback on which criteria are missing or need improvement.
 
   Example Use Case for the Tool:
-        Step 1: The user enters a password in a text box.
-        Step 2: The tool evaluates the password based on the criteria mentioned above.
-        Step 3: The tool provides feedback, such as:
-            "Password too short. Consider adding more characters."
-            "Missing uppercase letters. Add at least one."
-            "Your password is strong!"
-        Step 4: If the password does not meet certain criteria, the tool will suggest changes (e.g., adding special characters, mixing upper and lowercase letters, etc.).
-        Step 5: The user is given the option to re-enter a stronger password or accept the feedback.
+  
+  Step 1: The user enters a password in a text box.
+        
+  Step 2: The tool evaluates the password based on the criteria mentioned above.
+  
+  Step 3: The tool provides feedback, such as:
+         "Password too short. Consider adding more characters."
+         "Missing uppercase letters. Add at least one."
+         "Your password is strong!"
+         
+ Step 4: If the password does not meet certain criteria, the tool will suggest changes (e.g., adding special characters, mixing upper and lowercase letters, etc.).
+ 
+ Step 5: The user is given the option to re-enter a stronger password or accept the feedback.
 
 Key Features of the Tool:
 
    Length Check:
-        The password should have a minimum length (e.g., 8 characters) to avoid weak passwords.
-        Passwords shorter than the required length should trigger feedback advising the user to increase the length.
-
+   The password should have a minimum length (e.g., 8 characters) to avoid weak passwords.
+  
+   Passwords shorter than the required length should trigger feedback advising the user to increase the length.
+   
   Character Variety Check:
       The tool checks whether the password includes:
         Uppercase Letters: If no uppercase letters are found, feedback should recommend adding at least one.
