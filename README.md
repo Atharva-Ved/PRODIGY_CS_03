@@ -5,8 +5,6 @@ based on criteria such as length, presence of uppercase
 and lowercase letters, numbers, and special characters. 
 Provide feedback to users on the password's strength
 
-VIDEO LINK => https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22index.html%20-%20task3%20-%20Visual%20Studio%20Code%202025-01-10%2000-41-06.mp4%22%2C%22type%22%3A%22video%2Fmp4%22%2C%22signedurl_expire%22%3A%222028-01-09T19%3A52%3A20.105Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2Fa596210abbbb4460%2Findex.html%2520-%2520task3%2520-%2520Visual%2520Studio%2520Code%25202025-01-10%252000-41-06.mp4%3FExpires%3D1831060340%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DaZLit8qqPWG6ZP0D-3dTKFwgnPo6JC6JLfCdmJ3Hgq-TEAUIvbjFYK1Tq0o2b19kv9mx~xfFtKSdst6Xe6G2-u3OBZwcqbnHe97EtzGk93q1utuXsE4v-bxWKEqK25bbGNv1zxOibSiv7O8lwPM5Nk2WOyl77NpwWpmhd9DL03fsez00Ce~P56tSQq~7tJHEvvgCPUZYHjFO6cAAXuiZubJkmBiRtNjXcino4I9-6Fdq8A23WrgU76kMsx8xd5j8ZDkbfXo1HzSdo52gYp6-cJ3VppfDCJZ-EHMGYLjPpu~qGmEOfvZeYqLCwtP3zu2VJHEs1Wu97AlbYh6Kq7gtGg__%22%7D
-
 The one with app.py is GUI BASED and one with pcc.py is CLI BASED.
 
 Problem Statement Overview: The goal is to develop a tool that evaluates the strength of a password based on specific criteria. The tool will provide feedback on whether the password meets various security requirements and give users recommendations for improving it.
